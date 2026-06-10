@@ -2,14 +2,14 @@ import json
 import random
 import sys
 
-
+#dicionário de sílabas
 SYLLABLES = [
     "ca", "sa", "do", "ra", "me", "li", "pa", "to", "ne", "fi",
     "pro", "gra", "ma", "sis", "te", "com", "pu", "ta", "dor",
     "al", "go", "rit", "mo", "da", "dos", "es", "tru", "tu", "ra"
 ]
 
-
+#função para gerar uma palavra aleatória a partir do dicionário de sílabas
 def generate_word(min_parts=2, max_parts=5):
     parts = random.randint(min_parts, max_parts)
     word = ""
@@ -19,7 +19,7 @@ def generate_word(min_parts=2, max_parts=5):
 
     return word
 
-
+#função para criar um erro de digitação em uma palavra
 def make_typo(word):
     if len(word) <= 2:
         return word + "x"
@@ -38,7 +38,7 @@ def make_typo(word):
     # inserção
     return word[:index] + "x" + word[index:]
 
-
+#função para gerar um dicionário único de palavras
 def unique_dictionary(size):
     seen = set()
     dictionary = []
@@ -55,7 +55,7 @@ def unique_dictionary(size):
 
     return dictionary
 
-
+#função principal para gerar o dataset
 def generate_dataset(dictionary_size, query_size, output_path):
     dictionary = unique_dictionary(dictionary_size)
     queries = []
@@ -80,7 +80,7 @@ def generate_dataset(dictionary_size, query_size, output_path):
     with open(output_path, "w", encoding="utf-8") as file:
         json.dump(data, file, ensure_ascii=False, indent=2)
 
-
+#função para rodar o script a partir da linha de comando
 def main():
     if len(sys.argv) != 4:
         print("Uso: python src/generate_data.py <qtd_palavras> <qtd_consultas> <saida.json>")
