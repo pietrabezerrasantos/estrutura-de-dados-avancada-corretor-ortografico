@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Corretor Ortográfico com Busca Aproximada
 
 Projeto da disciplina de Estrutura de Dados Avançada.
@@ -66,3 +67,6 @@ Onde:
 - N = quantidade de termos do dicionário
 - L = tamanho médio das palavras
 - S = quantidade de sugestões encontradas
+=======
+# estrutura-de-dados-avancada-corretor-ortografico
+>>>>>>> 908b01bf131075547242ffa5ea634e3b4b7474aa
