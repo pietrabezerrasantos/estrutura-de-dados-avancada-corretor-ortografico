@@ -1,0 +1,57 @@
+{
+  "project": "corretor_ortografico",
+  "max_distance": 2,
+  "total_dictionary_terms": 10,
+  "results": [
+    {
+      "query": "caza",
+      "suggestions": [
+        {
+          "word": "casa",
+          "frequency": 90,
+          "distance": 1
+        },
+        {
+          "word": "carta",
+          "frequency": 40,
+          "distance": 2
+        }
+      ]
+    },
+    {
+      "query": "daddos",
+      "suggestions": [
+        {
+          "word": "dados",
+          "frequency": 100,
+          "distance": 1
+        },
+        {
+          "word": "dado",
+          "frequency": 60,
+          "distance": 2
+        }
+      ]
+    },
+    {
+      "query": "algoritimo",
+      "suggestions": [
+        {
+          "word": "algoritmo",
+          "frequency": 55,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "query": "computadr",
+      "suggestions": [
+        {
+          "word": "computador",
+          "frequency": 45,
+          "distance": 1
+        }
+      ]
+    }
+  ]
+}

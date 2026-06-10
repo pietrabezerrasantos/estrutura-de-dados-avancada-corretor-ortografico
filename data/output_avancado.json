@@ -1,0 +1,77 @@
+{
+  "project": "corretor_ortografico",
+  "max_distance": 2,
+  "total_dictionary_terms": 12,
+  "results": [
+    {
+      "query": "text",
+      "suggestions": [
+        {
+          "word": "texto",
+          "frequency": 40,
+          "distance": 1
+        },
+        {
+          "word": "teste",
+          "frequency": 99,
+          "distance": 2
+        }
+      ]
+    },
+    {
+      "query": "tecnlogia",
+      "suggestions": [
+        {
+          "word": "tecnologia",
+          "frequency": 100,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "query": "tries",
+      "suggestions": [
+        {
+          "word": "tries",
+          "frequency": 20,
+          "distance": 0
+        },
+        {
+          "word": "trie",
+          "frequency": 30,
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "query": "correto",
+      "suggestions": [
+        {
+          "word": "corretor",
+          "frequency": 95,
+          "distance": 1
+        },
+        {
+          "word": "correcao",
+          "frequency": 85,
+          "distance": 2
+        }
+      ]
+    },
+    {
+      "query": "ordencao",
+      "suggestions": [
+        {
+          "word": "ordenacao",
+          "frequency": 75,
+          "distance": 1
+        },
+        {
+          "word": "ordenar",
+          "frequency": 65,
+          "distance": 2
+        }
+      ]
+    }
+  ]
+}

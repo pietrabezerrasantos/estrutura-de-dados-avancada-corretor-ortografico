@@ -1,0 +1,65 @@
+{
+  "max_distance": 2,
+  "top_k": 5,
+  "dictionary": [
+    {
+      "word": "teste",
+      "frequency": 10
+    },
+    {
+      "word": "teste",
+      "frequency": 99
+    },
+    {
+      "word": "texto",
+      "frequency": 40
+    },
+    {
+      "word": "teclado",
+      "frequency": 60
+    },
+    {
+      "word": "tecnica",
+      "frequency": 80
+    },
+    {
+      "word": "tecnologia",
+      "frequency": 100
+    },
+    {
+      "word": "trie",
+      "frequency": 30
+    },
+    {
+      "word": "tries",
+      "frequency": 20
+    },
+    {
+      "word": "levenshtein",
+      "frequency": 15
+    },
+    {
+      "word": "ordenacao",
+      "frequency": 75
+    },
+    {
+      "word": "ordenar",
+      "frequency": 65
+    },
+    {
+      "word": "corretor",
+      "frequency": 95
+    },
+    {
+      "word": "correcao",
+      "frequency": 85
+    }
+  ],
+  "queries": [
+    "text",
+    "tecnlogia",
+    "tries",
+    "correto",
+    "ordencao"
+  ]
+}

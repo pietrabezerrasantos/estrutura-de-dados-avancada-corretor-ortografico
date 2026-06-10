@@ -1,0 +1,52 @@
+{
+  "max_distance": 2,
+  "top_k": 5,
+  "dictionary": [
+    {
+      "word": "casa",
+      "frequency": 90
+    },
+    {
+      "word": "casamento",
+      "frequency": 30
+    },
+    {
+      "word": "casaco",
+      "frequency": 70
+    },
+    {
+      "word": "carro",
+      "frequency": 80
+    },
+    {
+      "word": "carta",
+      "frequency": 40
+    },
+    {
+      "word": "dado",
+      "frequency": 60
+    },
+    {
+      "word": "dados",
+      "frequency": 100
+    },
+    {
+      "word": "estrutura",
+      "frequency": 50
+    },
+    {
+      "word": "algoritmo",
+      "frequency": 55
+    },
+    {
+      "word": "computador",
+      "frequency": 45
+    }
+  ],
+  "queries": [
+    "caza",
+    "daddos",
+    "algoritimo",
+    "computadr"
+  ]
+}
