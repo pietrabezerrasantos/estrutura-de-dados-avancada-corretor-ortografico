@@ -7,5 +7,5 @@ def load_input(path):
 
 #função para salvar o resultado em um arquivo JSON
 def save_output(path, data):
-    with open(path, "w", encoding="utf-8") as file:
+    with open(path, "w", encoding="utf-8) as file:
         json.dump(data, file, ensure_ascii=False, indent=2)
